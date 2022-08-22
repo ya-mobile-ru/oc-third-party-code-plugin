@@ -3,3 +3,9 @@
 1.0.2:
   - "Created table yamobile_thirdpartycode_codes"
   - builder_table_create_yamobile_thirdpartycode_codes.php
+1.0.3:
+  - "Created table yamobile_thirdpartycode_targets"
+  - builder_table_create_yamobile_thirdpartycode_targets.php
+1.0.4:
+  - "Updated table yamobile_thirdpartycode_codes"
+  - builder_table_update_yamobile_thirdpartycode_codes.php
