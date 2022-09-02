@@ -23,8 +23,7 @@ fields:
     commentAbove: HTML-код
   target_id:
     label: Цель
-    nameFrom: Targets
-    descriptionFrom: description
+    nameFrom: name
     span: full
     required: 1
     type: relation
