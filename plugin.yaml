@@ -4,3 +4,17 @@ plugin:
   author: Ya-mobile
   icon: oc-icon-code
   homepage: ""
+navigation:
+  code:
+    label: "Сторонний код"
+    url: yamobile/thirdpartycode/codes
+    icon: icon-code
+    sideMenu:
+      side-menu-item:
+        label: "Сторонний код"
+        url: yamobile/thirdpartycode/codes
+        icon: icon-code
+      side-menu-item2:
+        label: Цели
+        url: yamobile/thirdpartycode/targets
+        icon: icon-dot-circle-o
