@@ -21,10 +21,11 @@ fields:
     required: 1
     type: codeeditor
     commentAbove: HTML-код
-  target_id:
+  target:
     label: Цель
     nameFrom: name
     span: full
     required: 1
+    descriptionFrom: description
     type: relation
     commentAbove: "В каких компонентах отображать код"

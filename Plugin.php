@@ -8,6 +8,9 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            '\Yamobile\ThirdPartyCode\Components\Codes' => 'Codes',
+        ];
     }
 
     public function registerSettings()
