@@ -9,7 +9,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            '\Yamobile\ThirdPartyCode\Components\Codes' => 'Codes',
+            \Yamobile\ThirdPartyCode\Components\CodesComponent::class => 'Codes',
         ];
     }
 
