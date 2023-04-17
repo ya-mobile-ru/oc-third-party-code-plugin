@@ -1,0 +1,31 @@
+fields:
+  name:
+    label: Название
+    span: full
+    placeholder: "Сторонний сервис"
+    required: 1
+    type: text
+    commentAbove: "Отображается только в админ-панели"
+  is_enabled:
+    label: Включено
+    span: full
+    default: 1
+    required: 1
+    type: checkbox
+    comment: "Отображать код на странице"
+  code:
+    label: Код
+    size: huge
+    language: php
+    span: full
+    required: 1
+    type: codeeditor
+    commentAbove: HTML-код
+  target:
+    label: Цель
+    nameFrom: name
+    span: full
+    required: 1
+    descriptionFrom: description
+    type: relation
+    commentAbove: "В каких компонентах отображать код"

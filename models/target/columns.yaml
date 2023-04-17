@@ -1,0 +1,9 @@
+columns:
+  name:
+    label: Название
+    type: text
+    searchable: true
+  value:
+    label: Значение
+    type: text
+    searchable: true

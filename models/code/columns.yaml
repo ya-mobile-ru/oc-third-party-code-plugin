@@ -1,0 +1,9 @@
+columns:
+  name:
+    label: Название
+    type: text
+    searchable: true
+    sortable: false
+  is_enabled:
+    label: Включено
+    type: switch
