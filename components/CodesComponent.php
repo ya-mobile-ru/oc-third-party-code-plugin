@@ -10,8 +10,8 @@ class CodesComponent extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name' => 'Codes',
-            'description' => 'Codes',
+            'name' => 'yamobile.thirdpartycode::lang.components.codes.name',
+            'description' => 'yamobile.thirdpartycode::lang.components.codes.description',
         ];
     }
 
@@ -19,8 +19,8 @@ class CodesComponent extends ComponentBase
     {
         return [
             'target' => [
-                'title'       => 'Target',
-                'description' => 'Target',
+                'title'       => 'yamobile.thirdpartycode::lang.components.codes.properties.target.title',
+                'description' => 'yamobile.thirdpartycode::lang.components.codes.properties.target.description',
                 'default'     => '{{ :slug }}',
                 'type'        => 'string',
             ],
