@@ -11,7 +11,7 @@ navigation:
     icon: icon-code
     sideMenu:
       side-menu-item:
-        label: "Сторонний код"
+        label: "yamobile.thirdpartycode::lang.code.name"
         url: yamobile/thirdpartycode/codes
         icon: icon-code
       side-menu-item2:
