@@ -10,3 +10,6 @@ toolbar:
   search:
     prompt: "backend::lang.list.search_prompt"
 recordUrl: "yamobile/thirdpartycode/codes/update/:id"
+defaultSort:
+  column: sort_order
+  direction: asc
