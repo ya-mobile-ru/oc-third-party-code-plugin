@@ -73,4 +73,54 @@ return [
             ],
         ],
     ],
+    'target' => [
+        'name' => 'Цели',
+        'pages' => [
+            'index' => [
+                'title' => 'Цели',
+                'breadcrumb' => 'Цели',
+            ],
+            'preview' => [
+                'title' => 'Просмотр цели',
+                'breadcrumb' => 'Просмотр цели',
+            ],
+            'create' => [
+                'title' => 'Создание цели',
+                'breadcrumb' => 'Создание цели',
+            ],
+            'update' => [
+                'title' => 'Обновление цели',
+                'breadcrumb' => 'Обновление цели',
+            ],
+            'reorder' => [
+                'title' => 'Сортировка целей',
+                'breadcrumb' => 'Сортировка целей',
+            ],
+        ],
+        'fields' => [
+            'id' => [
+                'label' => 'ID',
+            ],
+            'name' => [
+                'label' => 'Название',
+                'comment' => 'Отображается только в админ панели',
+                'placeholder' => 'До </body>',
+            ],
+            'value' => [
+                'label' => 'Значение',
+                'comment' => 'Для определения компонентов',
+                'placeholder' => 'body_end',
+            ],
+            'is_enabled' => [
+                'label' => 'Включено',
+                'comment' => 'Отображать код из компонента',
+            ],
+            'created_at' => [
+                'label' => 'Создано',
+            ],
+            'updated_at' => [
+                'label' => 'Обновлено',
+            ],
+        ],
+    ],
 ];

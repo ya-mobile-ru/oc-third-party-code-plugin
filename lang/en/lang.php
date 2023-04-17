@@ -73,4 +73,54 @@ return [
             ],
         ],
     ],
+    'target' => [
+        'name' => 'Targets',
+        'pages' => [
+            'index' => [
+                'title' => 'Targets',
+                'breadcrumb' => 'Targets',
+            ],
+            'preview' => [
+                'title' => 'Target preview',
+                'breadcrumb' => 'Target preview',
+            ],
+            'create' => [
+                'title' => 'Target create',
+                'breadcrumb' => 'Target create',
+            ],
+            'update' => [
+                'title' => 'Target update',
+                'breadcrumb' => 'Target update',
+            ],
+            'reorder' => [
+                'title' => 'Target reorder',
+                'breadcrumb' => 'Target reorder',
+            ],
+        ],
+        'fields' => [
+            'id' => [
+                'label' => 'ID',
+            ],
+            'name' => [
+                'label' => 'Name',
+                'comment' => 'Displays in admin panel only',
+                'placeholder' => 'Before </body>',
+            ],
+            'value' => [
+                'label' => 'Value',
+                'comment' => 'To identify components',
+                'placeholder' => 'body_end',
+            ],
+            'is_enabled' => [
+                'label' => 'Enabled',
+                'comment' => 'Output component\'s code',
+            ],
+            'created_at' => [
+                'label' => 'Created at',
+            ],
+            'updated_at' => [
+                'label' => 'Updated at',
+            ],
+        ],
+    ],
 ];

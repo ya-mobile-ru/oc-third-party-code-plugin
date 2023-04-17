@@ -15,6 +15,6 @@ navigation:
         url: yamobile/thirdpartycode/codes
         icon: icon-code
       side-menu-item2:
-        label: Цели
+        label: "yamobile.thirdpartycode::lang.target.name"
         url: yamobile/thirdpartycode/targets
         icon: icon-dot-circle-o

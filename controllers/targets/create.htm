@@ -1,7 +1,8 @@
+<? $this->pageTitle = e(trans('yamobile.thirdpartycode::lang.target.pages.create.title')) ?>
 <?php Block::put('breadcrumb') ?>
     <ul>
-        <li><a href="<?= Backend::url('yamobile/thirdpartycode/targets') ?>">Targets</a></li>
-        <li><?= e($this->pageTitle) ?></li>
+        <li><a href="<?= Backend::url('yamobile/thirdpartycode/targets') ?>"><?= e(trans('yamobile.thirdpartycode::lang.target.pages.index.breadcrumb')) ?></a></li>
+        <li><?= e(trans('yamobile.thirdpartycode::lang.target.pages.create.breadcrumb')) ?></li>
     </ul>
 <?php Block::endPut() ?>
 
