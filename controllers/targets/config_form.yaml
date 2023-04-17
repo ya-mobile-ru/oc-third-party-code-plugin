@@ -1,6 +1,6 @@
 name: Targets
-form: $/yamobile/thirdpartycode/models/targets/fields.yaml
-modelClass: Yamobile\ThirdPartyCode\Models\Targets
+form: $/yamobile/thirdpartycode/models/target/fields.yaml
+modelClass: Yamobile\ThirdPartyCode\Models\Target
 defaultRedirect: yamobile/thirdpartycode/targets
 create:
   redirect: "yamobile/thirdpartycode/targets/update/:id"

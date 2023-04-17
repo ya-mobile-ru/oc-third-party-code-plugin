@@ -1,5 +1,5 @@
-list: $/yamobile/thirdpartycode/models/targets/columns.yaml
-modelClass: Yamobile\ThirdPartyCode\Models\Targets
+list: $/yamobile/thirdpartycode/models/target/columns.yaml
+modelClass: Yamobile\ThirdPartyCode\Models\Target
 title: Targets
 noRecordsMessage: "backend::lang.list.no_records"
 showSetup: true

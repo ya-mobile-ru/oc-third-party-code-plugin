@@ -7,7 +7,7 @@ use Model;
 /**
  * Model
  */
-class Targets extends Model
+class Target extends Model
 {
     use \October\Rain\Database\Traits\Validation;
 
@@ -23,5 +23,9 @@ class Targets extends Model
         'name' => 'required',
         'is_enabled' => 'required',
         'value' => 'required',
+    ];
+
+    public $hasMany = [
+        'codes' => \Yamobile\ThirdPartyCode\Models\Code::class,
     ];
 }

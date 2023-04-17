@@ -27,6 +27,6 @@ class Code extends Model
     ];
 
     public $belongsTo = [
-        'target' => '\Yamobile\ThirdPartyCode\Models\Targets',
+        'target' => \Yamobile\ThirdPartyCode\Models\Target::class,
     ];
 }
