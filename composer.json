@@ -1,5 +1,5 @@
 {
-	"name": "yamobile/third-plugin-code-plugin",
+	"name": "yamobile/thirdpartycode-plugin",
 	"type": "october-plugin",
 	"description": "A simple third party code management tool for October CMS",
 	"require": {
